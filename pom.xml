@@ -97,6 +97,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>outbox-pattern</finalName>
 	</build>
 
 </project>
