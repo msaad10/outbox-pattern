@@ -20,7 +20,7 @@ public class Outbox {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String aggregateId;
+    private String aggregateId ;
     private String payload;
     private Date createdAt;
     private Boolean processed;
