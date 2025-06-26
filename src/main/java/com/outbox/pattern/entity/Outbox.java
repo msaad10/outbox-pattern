@@ -24,5 +24,4 @@ public class Outbox {
     private String payload;
     private Date createdAt;
     private Boolean processed;
-
 }
